@@ -18,8 +18,16 @@
   ],
   "author": "The Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha -w test/*.js"
+  },
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/react-rendering/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/react-rendering#readme",
+  "dependencies": {
+    "mocha-multi": "^0.11.0"
+  }
 }
